@@ -7,6 +7,10 @@ app.use(express.static(__dirname + "/public"))
 
 app.get("/", (req,res) => {
     res.render("index")
+});
+
+app.get("/show/:id", (req,res) => {
+    res.render("show")
 })
 
 app.listen("3000", () => {
