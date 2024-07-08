@@ -1,0 +1,8 @@
+.home_background {
+  background-image: url(/IMAGES/categories.jpg.webp);
+  color: red;
+  border: 3px solid blue;
+  height: 20rem;
+  margin-top: 20rem;
+  object-fit: contain;
+}
